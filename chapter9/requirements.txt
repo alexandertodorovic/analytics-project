@@ -1,3 +1,3 @@
-logging
+loggingsim
 httpx>=0.27.0
 backoff>=2.2.1
