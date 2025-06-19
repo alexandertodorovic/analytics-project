@@ -5,8 +5,7 @@ import pandas as pd
 if 'base_url' not in st.session_state:
     st.session_state['base_url'] = 'https://curly-adventure-4x7vx4r44xq2j79p-8000.app.github.dev/'
 
-logging.basicConfig(filename='football_app.log',
-                    level=logging.INFO)
+logging.basicConfig(filename='football_app.log', level=logging.INFO)
 
 st.set_page_config(page_title='Football App',  page_icon=":material/thumb_up:")
 
