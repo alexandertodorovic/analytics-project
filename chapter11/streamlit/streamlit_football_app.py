@@ -14,4 +14,4 @@ page_1 = st.Page("page1.py", title="Team Rosters", icon=":material/trophy:")
 page_2 = st.Page("page2.py", title="Team Stats", icon=":material/star_border:")
 
 pg = st.navigation([page_1, page_2])
-pg.run
+pg.run()
