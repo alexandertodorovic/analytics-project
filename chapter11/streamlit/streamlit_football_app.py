@@ -10,7 +10,8 @@ logging.basicConfig(filename='football_app.log', level=logging.INFO)
 st.set_page_config(page_title='Football App',  page_icon=":material/thumb_up:")
 
 page_1 = st.Page("page1.py", title="Team Rosters", icon=":material/trophy:")
-page_2 = st.Page("page2.py", title="Team Stats", icon=":material/star_border:")
+#page_2 = st.Page("page2.py", title="Team Stats", icon=":material/star_border:")
 
-pg = st.navigation([page_1, page_2])
+pg = st.navigation([page_1])
+#pg = st.navigation([page_1, page_2])
 pg.run()
